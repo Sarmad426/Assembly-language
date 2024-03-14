@@ -16,7 +16,7 @@ name | operation | operand(a) | comment
 .model small
 .stack 100h
 .data
-str db "First Program!"
+str db "First Program!$"
 .code
 
 Main proc
@@ -46,6 +46,10 @@ end Main
 **INC** increments value by 1.
 
 **DEC** decrements value by 1.
+
+**db** define byte
+
+**dw** define word
 
 ## I/O functions
 
