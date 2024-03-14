@@ -1,7 +1,7 @@
 .model small
 .stack 100h
 .data
-str db "First Program!"
+str db "First Program!$"
 .code
 
 Main proc
